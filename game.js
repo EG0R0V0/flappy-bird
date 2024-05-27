@@ -30,9 +30,9 @@ function moveUp(){
     yPos -=25;
     fly.play();
 }
-document.getElementById("click", moveU);
-
-function moveU(){
+const button = document.querySelector('#myButton');
+button.addEventListener('click', callback);
+function callback(){
     yPos -=25;
     fly.play();
 }
