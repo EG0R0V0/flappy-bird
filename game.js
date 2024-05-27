@@ -30,6 +30,12 @@ function moveUp(){
     yPos -=25;
     fly.play();
 }
+document.getElementById("click", moveU);
+
+function moveU(){
+    yPos -=25;
+    fly.play();
+}
 //создание блоков
 var pipe = [];
 pipe[0] = {
