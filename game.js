@@ -30,12 +30,14 @@ function moveUp(){
     yPos -=25;
     fly.play();
 }
+
 const button = document.querySelector('#myButton');
 button.addEventListener('click', callback);
 function callback(){
     yPos -=25;
     fly.play();
 }
+
 //создание блоков
 var pipe = [];
 pipe[0] = {
